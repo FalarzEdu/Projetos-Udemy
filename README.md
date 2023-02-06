@@ -7,4 +7,4 @@ Este repositório tem por função armazenar e disponibilizar para visualizaçã
 <h2>➣ Links dos sites</h2>
 
 
-• <a href="https://falarzedu.github.io/Projetos-Udemy/HTML,%20CSS%20E%20JS%20BÁSICO-INTERMEDIÁRIO/Projeto%20STRATA/" target="_blank"> 1º - Projeto STRATA</a>
+[01 - Projeto STRATA](https://falarzedu.github.io/Projetos-Udemy/HTML,%20CSS%20E%20JS%20BÁSICO-INTERMEDIÁRIO/Projeto%20STRATA/)
