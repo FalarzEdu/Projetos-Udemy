@@ -26,4 +26,4 @@ Este desafio teve como propósito a aplicação dos recursos CSS e HTML aprendid
 
 • GitHub: <a>https://github.com/FalarzEdu</a>
 
-• GitHub Pages do Projeto: [Link](https://falarzedu.github.io/Projetos-Udemy/HTML,%20CSS%20E%20JS%20BÁSICO-INTERMEDIÁRIO/Projeto%20STRATA/)
+• GitHub Pages do Projeto: [Link](https://falarzedu.github.io/Projetos-Udemy/HTML,%20CSS%20E%20JS%20BÁSICO-INTERMEDIÁRIO/01%20-%20Projeto%20STRATA/)
