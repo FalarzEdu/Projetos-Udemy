@@ -14,6 +14,6 @@
 
 
 
-![Projeto Blog - Imagem Desktop 1](.\img\blog_desktop1.png)
+<img src=".\img\blog_desktop1.png"></img>
 
-![Projeto Blog - Imagem Desktop 2](.\img\blog_desktop1.png)
+<img src=".\img\blog_desktop2.png"></img>
