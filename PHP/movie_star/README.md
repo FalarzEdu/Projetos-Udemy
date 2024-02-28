@@ -34,17 +34,17 @@
 
 <h4 id="img">Imagens</h4>
 
-![Página de login](.\img_project\login-desktop.png)
+<img src=".\img_project\login-desktop.png" alt="Página de login" style="zoom:80%;" />
 
-![Página principal](.\img_project\index-desktop.png)
+<img src=".\img_project\index-desktop.png" alt="Página principal" style="zoom:80%;" />
 
 
 
-![Tela de "meus filmes"](.\img_project\myMovies-desktop.png)
+<img src=".\img_project\myMovies-desktop.png" alt="Tela de &quot;meus filmes&quot;" style="zoom:80%;" />
 
-![Tela de adicionar filmes](.\img_project\addMovie-desktop.png)
+<img src=".\img_project\addMovie-desktop.png" alt="Tela de adicionar filmes" style="zoom:80%;" />
 
-![Tela de perfil](.\img_project\profile-desktop.png)
+<img src=".\img_project\profile-desktop.png" alt="Tela de perfil" style="zoom:80%;" />
 
 <img src=".\img_project\login-mobile.png" style="zoom: 33%;" alt="Página de login"/>
 
