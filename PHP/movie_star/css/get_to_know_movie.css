@@ -1,0 +1,342 @@
+/* -------------------- REUSABLE STYLES ------------------ */
+.btn {
+    text-transform: uppercase;
+    background-color: #fabb33;
+}
+
+/* ------------------------ MAIN ------------------------- */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: black;
+}
+
+/* --------------------- MOVIE INFO ---------------------- */
+.movie-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin: 2rem 0;
+}
+
+.movie-content {
+    display: flex;
+    gap: 2.5vw;
+    width: 100%;
+}
+
+.movie-main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.movie-title {
+    font-size: 32px;
+    border-bottom: 2px solid #fabb33;
+    padding-bottom: .25rem;
+    margin-bottom: 1.5rem;
+    width: 70%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.movie-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+
+.movie-category {
+    border-left: 1px solid #505050;
+    border-right: 1px solid #505050;
+    margin: 0 1rem;
+    padding: 0 1rem;
+}
+
+.valuation-stars {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.valuation-stars p {
+    font-size: 18px;
+}
+
+.valuation-stars img {
+    margin-right: 2px;
+    height: 18px;
+    width: 18px;
+}
+
+.movie-trailer {
+    width: 100%;
+    height: 45vh;
+}
+
+.movie-description {
+    color: white;
+    margin-top: 2rem;
+    padding: 0 2rem;
+    text-align: justify;
+}
+
+/* --------------------- MOVIE PHOTO ---------------------- */
+
+.movie-photo-container {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.movie-photo {
+    height: auto;
+    max-height: 70vh;
+    width: auto;
+    object-fit: cover;
+}
+
+/* ------------------ COMMENTS SECTION -------------------- */
+
+.comments-content {
+    width: 80vw;
+    border-top: 3px solid #fabb33;
+    padding: 1rem 0 0 1rem;
+}
+
+.comment-unit {
+    margin-bottom: 1rem;
+}
+
+.comment-title {
+    font-size: 24px;
+    margin-bottom: 2rem;
+}
+
+.comment-user {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    margin-bottom: 1rem;
+}
+
+.comment-profile-photo {
+    height: 100%;
+    margin-right: 1rem;
+    border: 3px solid #fabb33;
+    border-radius: 999px;
+}
+
+.comment-user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.username {
+    font-size: 20px;
+    color: #fabb33;
+    font-weight: bold;
+}
+
+.comment-content-section {
+    border-bottom: 1px solid #505050;
+}
+
+.comment-subtitle {
+    margin-bottom: 1rem;
+}
+
+.comment-content {
+    margin-bottom: 1.5rem;
+}
+
+/* --------------- WRITE A COMMENT SECTION ----------------- */
+.write-comment-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 80vw;
+    padding: 1rem 0 0 1rem;
+}
+
+.write-comment-title {
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+label {
+    font-size: 28px;
+    margin-bottom: .5rem    ;
+}
+
+.write-comment-content {
+    color: white;
+    background-color: transparent;
+    border: 2px solid #fabb33;
+    height: 10rem;
+    width: 100%;
+    resize: none;
+    font-size: 18px;
+    padding: .5rem .75rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.write-comment-content::placeholder {
+    color: white;
+}
+
+/* --------------- MEDIA QUERIES ----------------- */
+
+@media (max-width: 760px) {
+    .movie-container {
+        width: 100vw;
+    }
+
+    .movie-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5vw;
+    }
+
+    .movie-main-content {
+        width: 100%;
+    }
+
+    iframe {
+        width: 90vw;
+        height: 50.4vw;
+    }
+
+    .movie-photo-container {
+        width: 90vw;
+    }
+
+    .movie-photo {
+        width: 100%;
+    }
+
+    /* ---------------- COMMENTS SECTION ------------------ */
+
+    .comments-content {
+        width: 90vw;
+        padding-left: 0;
+    }
+
+    .write-comment-form {
+        width: 90vw;
+        padding-left: 0;
+    }
+
+}
+
+@media (min-width: 761px) and (max-width: 1024px) {
+    .movie-container {
+        width: 100vw;
+    }
+
+    .movie-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5vw;
+    }
+
+    .movie-title {
+        font-size: 54px;
+        padding-bottom: .5rem;
+    }
+
+    .movie-info p {
+        font-size: 28px;
+    }
+
+    .movie-main-content {
+        width: 100%;
+    }
+
+    iframe {
+        width: 90vw;
+        height: 50.4vw;
+    }
+
+    .movie-photo-container {
+        width: 65vw;
+    }
+
+    .movie-photo {
+        width: 100%;
+    }
+
+    .movie-description {
+        font-size: 28px;
+    }
+
+    /* ---------------- COMMENTS SECTION ------------------ */
+
+    .comments-content {
+        width: 90vw;
+        padding-left: 0;
+    }
+
+    .comment-title {
+        font-size: 38px;
+    }
+
+    .comment-user {
+        height: 6rem;
+    }
+
+    .comment-user-info p {
+        font-size: 28px;
+    }
+
+    .comment-user-info img {
+        height: 28px;
+        width: 28px;
+    }
+
+    .comment-subtitle {
+        font-size: 28px;
+    }
+
+    .comment-content {
+        font-size: 26px;
+    }
+
+    .write-comment-form {
+        width: 90vw;
+        padding-left: 0;
+    }
+
+    .write-comment-title {
+        font-size: 32px;
+    }
+
+    #rating {
+        height: 2rem;
+        width: 5rem;
+        font-size: 28px;
+    }
+
+    #review {
+        font-size: 28px;
+    }
+
+    .btn {
+        font-size: 24px;
+    }
+}

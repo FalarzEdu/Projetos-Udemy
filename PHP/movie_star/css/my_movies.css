@@ -1,0 +1,117 @@
+/* ------------------ Default settings ------------------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main {
+    background-color: black;
+}
+
+/* ------------------------ TITLE ---------------------- */
+
+.default-title {
+    margin-bottom: 5vh;
+}
+
+/* ---------------------- TABLE ----------------------- */
+
+.user-movies {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 95vw;
+    color: white;
+    text-align: center;
+}
+
+th {
+    background-color: #2f2f2f;
+}
+
+td {
+    background-color: #505050;
+}
+
+.movie-title {
+    padding: 0;
+}
+
+th, td {
+    font-size: 18px;
+    height:6vh;
+    max-height: 1rem;
+    border-bottom: 1px solid #ffcc5a;
+}
+
+.movie-actions {
+    width: 100px;
+}
+
+.movie-actions :first-child {
+    margin-right: 10px;
+}
+
+table img {
+    height: 20px;
+    width: 20px;
+}
+
+#category {
+    background-color: #121212;
+}
+
+/* ---------------- CONTAINER ----------------- */
+.close-popup-container {
+    height: auto;
+    padding: 1rem 0;
+    padding: 70px 1rem;
+}
+
+/* --------------- DELETE POPUP ---------------- */
+.delete-popup {
+    display: none;
+    position: fixed;
+    width: 40vw;
+    height: auto;
+    left: 30vw;
+    top: 20vh;
+    background-color: #121212;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* -------------- MEDIA QUERIES ---------------- */
+
+@media (max-width: 720px) {
+    /* --------------- DELETE POPUP ---------------- */
+    .delete-popup {
+        width: 80vw;
+        height: 35vh;
+        left: 10vw;
+        top: 32.5vh;
+    }
+
+    /* ---------------- CONTAINER ----------------- */
+
+    .form-container {
+        height: auto;
+        padding: 1rem 0;
+        padding: 60px 1rem;
+    }
+}
+
+@media (min-width: 761px) and (max-width: 1024px) {
+    td {
+        font-size: 22px;
+    }
+
+    .delete-movie, .update-movie {
+        height: 25px;
+        width: 25px;
+    }
+}

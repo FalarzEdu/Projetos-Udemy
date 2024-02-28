@@ -1,0 +1,45 @@
+main {
+    width: 100%;
+    max-width: 40rem;
+    margin: auto;
+}
+
+#category option {
+    color: black;
+}
+
+@media (min-width: 761px) and (max-width: 1024px) {
+    main {
+        width: 80vw;
+        max-width: fit-content;
+    }
+}
+
+/* -------------- REUSABLE STYLES -------------- */
+
+.btn {
+    text-transform: uppercase;
+}
+
+/* -------------------- FORM ------------------- */
+
+.default-title, .default-subtitle {
+    padding-left: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto 0 auto;
+}
+
+.form-container {
+    width: 100%;
+}
+
+@media (max-width: 760px) {
+    .default-title, .default-subtitle {
+        padding-left: 10vw;
+    }
+}
