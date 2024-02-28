@@ -9,12 +9,14 @@
 <h3>Sumário</h3>
 
 <ol>
-    <li href="#intro">Introdução</li>
-    <li href="#meto">Metodologias e ferramentas</li>
-    <li href="#img">Imagens</li>
-    <li href="#teste">Como testar</li>
-    <li href="#conclusao">Conclusão</li>
+	<li> <a href="#intro">Introdução</a> </li>
+    <li> <a href="#meto">Metodologias e ferramentas</a> </li>
+    <li> <a href="#img">Imagens</a> </li>
+    <li> <a href="#teste">Como testar</a> </li>
+    <li> <a href="#conclusao">Conclusão</a> </li>
 </ol>
+
+
 
 <h4 id="intro">Introdução</h4>
 
@@ -32,25 +34,27 @@
 
 <h4 id="img">Imagens</h4>
 
-![Página de login](C:\xampp\htdocs\curso_php\movie_star\img_project\login-desktop.png)
+![Página de login](.\img_project\login-desktop.png)
 
-![Página principal](C:\xampp\htdocs\curso_php\movie_star\img_project\index-desktop.png)
+![Página principal](.\img_project\index-desktop.png)
 
 
 
-![Tela de "meus filmes"](C:\xampp\htdocs\curso_php\movie_star\img_project\myMovies-desktop.png)
+![Tela de "meus filmes"](.\img_project\myMovies-desktop.png)
 
-![Tela de adicionar filmes](C:\xampp\htdocs\curso_php\movie_star\img_project\addMovie-desktop.png)
+![Tela de adicionar filmes](.\img_project\addMovie-desktop.png)
 
-![Tela de perfil](C:\xampp\htdocs\curso_php\movie_star\img_project\profile-desktop.png)
+![Tela de perfil](.\img_project\profile-desktop.png)
 
-<img src="C:\xampp\htdocs\curso_php\movie_star\img_project\login-mobile.png" style="zoom: 33%;" alt="Página de login"/>
+<img src=".\img_project\login-mobile.png" style="zoom: 33%;" alt="Página de login"/>
 
-<img src="C:\xampp\htdocs\curso_php\movie_star\img_project\index-mobile.png" style="zoom:33%;" alt="Página principal"/>
+<img src=".\img_project\index-mobile.png" style="zoom:33%;" alt="Página principal"/>
 
-<img src="C:\xampp\htdocs\curso_php\movie_star\img_project\addMovie-mobile.png" style="zoom:33%;" alt="Tela de adicionar filmes"/>
+<img src="./img_project/myMovies-mobile.png" style="zoom:33%;" />
 
-<img src="C:\xampp\htdocs\curso_php\movie_star\img_project\profile-mobile.png" style="zoom:33%;" alt="Tela de adicionar filmes"/>
+<img src=".\img_project\addMovie-mobile.png" style="zoom:33%;" alt="Tela de adicionar filmes"/>
+
+<img src=".\img_project\profile-mobile.png" style="zoom:33%;" alt="Tela de adicionar filmes"/>
 
 
 
